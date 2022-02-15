@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 4px;
+  padding: 0px;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -37,9 +37,9 @@ body {
 
 .time {
   position: absolute;
-  width: 50px;
-  height: 16px;
-  left: 5px;
+  width: 60px;
+  height: 25px;
+  left: 7px;
   top: 16px;
 }
 
@@ -48,19 +48,7 @@ body {
   padding-top: 50px;
   padding-left: 10px;
   color: #edecff;
-}
-
-a {
   text-decoration: none;
-}
-
-.top-circle {
-  position: absolute;
-  height: 563px;
-  width: 513px;
-  left: -106px;
-  top: 0;
-  border-radius: 0;
 }
 
 .ellipse1 {
@@ -68,10 +56,9 @@ a {
   height: 160px;
   width: 160px;
   right: 321px;
-  left: -106px;
+  left: -90px;
   top: 97px;
   bottom: 5158px;
-  border-radius: 0;
   background: #edecff;
   filter: blur(50px);
 }
@@ -79,10 +66,9 @@ a {
 .ellipse2 {
   position: absolute;
   height: 68px;
-  width: 68px;
-  left: 339px;
+  width: 100px;
+  left: 330px;
   top: 495px;
-  border-radius: 0;
   bottom: 5158px;
   background: #edecff;
   filter: blur(50px);
@@ -102,6 +88,7 @@ a {
   line-height: 20px;
   letter-spacing: 0.57px;
   text-align: center;
+  padding-bottom: 40px;
   color: #7d73fc;
 }
 
@@ -113,6 +100,7 @@ a {
   line-height: 4px;
   letter-spacing: 0;
   text-align: center;
+  padding-bottom: 40px;
   color: #edecff;
 }
 
@@ -127,15 +115,14 @@ a {
   color: #c8c8d4;
 }
 
-.vector4 {
+hr {
   position: absolute;
-  height: 0;
   width: 327px;
   left: 24px;
   right: 24px;
-  top: 650px;
+  top: 500px;
   bottom: 4879px;
-  border-radius: 0;
+  height: 0;
   border: 1px solid#646369;
 }
 
@@ -145,7 +132,7 @@ a {
   width: 327px;
   left: 24px;
   right: 24px;
-  top: 1100px;
+  top: 950px;
   bottom: 4879px;
   border-radius: 0;
   border: 1px solid#646369;
@@ -177,13 +164,15 @@ a {
   width: 156px;
   height: 214.15px;
   left: 147px;
+  line-height: 20px;
 }
 
 .frameworks {
   position: static;
   width: 156px;
   height: 214.15px;
-  left: 147px;
+  left: 150px;
+  line-height: 30px;
 }
 
 .skills {
@@ -191,6 +180,7 @@ a {
   width: 156px;
   height: 214.15px;
   left: 147px;
+  line-height: 20px;
 }
 
 .icons {
