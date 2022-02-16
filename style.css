@@ -13,7 +13,6 @@ header {
   align-items: center;
   background-color: #191765;
   width: 375px;
-
   height: 60px;
 }
 
@@ -30,7 +29,6 @@ header {
   position: absolute;
   font-size: 25px;
   color: #e5e5e5;
-  /* margin-top: 30px; */
 }
 
 .main-mobile-section {
