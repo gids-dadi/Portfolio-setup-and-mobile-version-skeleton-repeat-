@@ -9,12 +9,12 @@ Built With
 HTML and CSS
 
 Live Demo (if available)
-Note available
+Not available
 
 👤 Author1
 Gideon Dadi
 
-GitHub: gids-dadi@gids-dadi
+GitHub: @gids-dadi
 Twitter: @Dadi_AG
 
 Show your support
