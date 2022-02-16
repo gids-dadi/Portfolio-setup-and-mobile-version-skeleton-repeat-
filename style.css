@@ -8,27 +8,30 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+
   background-color: #191765;
-  height: 92px;
   width: 375px;
+
+  height: 60px;
 }
 
-.name {
-  position: absolute;
-  left: 22px;
-  right: 270px;
-  top: 60px;
-  bottom: 5339px;
+.name_logo {
   color: #edecff;
   text-decoration: none;
+  font-weight: bold;
+  padding-top: 18px;
+  padding-right: 200px;
+  padding-left: 30px;
 }
 
-.fa-solid {
+.menu_bar {
   position: absolute;
-  font-size: 30px;
-  left: 301.33px;
-  top: 50px;
-  color: #c8c8d4;
+  font-size: 25px;
+  color: #e5e5e5;
+  /* margin-top: 30px; */
 }
 
 .main-mobile-section {
@@ -40,15 +43,16 @@ header {
 
 .ellipse1 {
   position: absolute;
-  height: 160px;
+  height: 150px;
   width: 160px;
   right: 321px;
-  left: -90px;
+  left: -100px;
   top: 97px;
   bottom: 5158px;
   background: #edecff;
-  border-radius: 50%;
-  filter: blur(30px);
+  border-radius: 100%;
+  filter: blur(20px);
+  opacity: 0.9;
 }
 
 .ellipse2 {
@@ -56,48 +60,50 @@ header {
   height: 68px;
   width: 100px;
   left: 330px;
-  top: 495px;
+  top: 590px;
   bottom: 5158px;
   background: #edecff;
   border-radius: 50%;
-  filter: blur(30px);
+  filter: blur(20px);
 }
 
 h1 {
-  padding-top: 100px;
+  width: 327px;
+  padding-top: 65px;
   font-size: 50px;
-  font-weight: 800;
+  font-weight: bold;
   font-style: normal;
-  line-height: 20px;
-  letter-spacing: 0.57px;
+  line-height: 70px;
+  letter-spacing: 1.8px;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
   color: #7d73fc;
+  padding-left: 25px;
 }
 
 h3 {
+  height: 70px;
   width: 327px;
-  font-size: 32px;
+  font-size: 30px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 4px;
+  font-weight: 520;
   letter-spacing: 0;
   text-align: center;
   padding-left: 24px;
-  padding-bottom: 60px;
+  padding-bottom: 1px;
   color: #edecff;
 }
 
 .advert-text {
-  position: absolute;
-  width: 280px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0;
-  text-align: center;
+  width: 330px;
+  height: 170px;
+  font-size: 20px;
   color: #c8c8d4;
-  padding-left: 24px;
+  line-height: 29px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin: 24px 24px;
+  justify-content: center;
 }
 
 .vector4 {
@@ -105,7 +111,7 @@ h3 {
   width: 327px;
   left: 24px;
   right: 24px;
-  top: 500px;
+  top: 560px;
   bottom: 4879px;
   height: 0;
   border: 1px solid#646369;
@@ -116,41 +122,39 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 162.15px;
+  align-items: stretch;
+  height: 182.15px;
   padding-left: 56px;
-  padding-top: 250px;
+  padding-top: 30px;
   border-radius: 0;
   color: #f5f5ff;
-  width: 370px;
+  width: 375px;
 }
 
 .tech-experience h2 {
   color: #9490ff;
-  font-size: 15px;
+  font-size: 12px;
+  font-style: normal;
 }
 
 .tech-experience ul {
-  font-size: 15px;
-  font-style: italic;
-  line-height: 30px;
+  font-size: 13px;
+  line-height: 35px;
   list-style: none;
 }
 
 .language {
-  position: static;
-  width: 200px;
+  width: 20px;
   height: 214.15px;
 }
 
 .frameworks {
-  position: absolute;
   width: 200px;
   height: 214.15px;
   left: 178px;
 }
 
 .skills {
-  position: static;
   width: 200px;
   height: 214.15px;
   left: 147px;
@@ -175,20 +179,26 @@ h3 {
 .social-media-icons {
   display: flex;
   flex-direction: row;
-  padding-left: 60px;
+  padding-left: 65px;
   padding-top: 350px;
   align-items: center;
   justify-content: space-between;
   width: 200px;
+  padding-bottom: 30px;
 }
 
-.fal {
-  color: white;
-  font-family: Roboto;
+.work-arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.work-arrow a {
+  text-decoration: none;
+  color: #a2a3ae;
+  font-weight: 520;
+  line-height: 32px;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: 0em;
-  text-align: center;
 }
