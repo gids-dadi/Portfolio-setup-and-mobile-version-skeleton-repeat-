@@ -1,9 +1,7 @@
-Project Name
-
-# Portfolio-setup-and-mobile-version-skeleton
+Portfolio-setup-and-mobile-version-skeleton
 
 Description the project.
-First project @microverse to set up Portfolio project - mobile version skeleton
+My personal portfolio project. A clone of figma, it contains informtion about my tech skills and competencies.
 
 Built With
 HTML and CSS
