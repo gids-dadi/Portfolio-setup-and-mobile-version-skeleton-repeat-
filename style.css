@@ -482,6 +482,6 @@ h3 {
   background: #edecff;
   border-radius: 50%;
   filter: blur(20px);
-  transform: matrix(-0.26, 0.97, 0.97, 0.97, 0.26, 0, 0);
+  transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   opacity: 0.9;
 }
