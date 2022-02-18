@@ -441,3 +441,53 @@ h3 {
   font-size: 16px;
   margin-top: 10px;
 }
+
+.ellipse3 {
+  position: absolute;
+  height: 602.57px;
+  width: 50px;
+  left: -90px;
+  top: 1355px;
+  background: #edecff;
+  border-radius: 50%;
+  filter: blur(20px);
+  transform: rotate(-56.38deg);
+  opacity: 0.8;
+}
+
+.ellipse4 {
+  position: absolute;
+  height: 402.57px;
+  width: 50px;
+  left: 300px;
+  top: 2155px;
+  background: #edecff;
+  border-radius: 50%;
+  filter: blur(20px);
+  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+  opacity: 0.8;
+}
+
+.ellipse5 {
+  position: absolute;
+  height: 155px;
+  width: 200px;
+  left: -30px;
+  top: 3015px;
+  background: rgba(237, 236, 255, 0.3);
+  filter: blur(20px);
+  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+}
+
+.ellipse6 {
+  position: absolute;
+  height: 202.57px;
+  width: 101.29px;
+  left: 298.22px;
+  top: 3723px;
+  background: #edecff;
+  border-radius: 50%;
+  filter: blur(20px);
+  transform: matrix(-0.26, 0.97, 0.97, 0.97, 0.26, 0, 0);
+  opacity: 0.9;
+}
