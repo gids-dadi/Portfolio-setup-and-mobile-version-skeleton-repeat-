@@ -12,7 +12,7 @@ https://gids-dadi.github.io/Portfolio-setup-and-mobile-version-skeleton-repeat-/
 
 This is an exercise required creating a repo, adding a .gitignore file, setting two different sections of the portfolio site and linters for html&css.
 
-👤 Author1
+👤 Author
 
 - GitHub: [@gids_dadi](https://github.com/gids-dadi)
 - Twitter: [@Dadi_AG](https://twitter.com/Dadi_AG)
