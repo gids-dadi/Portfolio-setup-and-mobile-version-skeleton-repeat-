@@ -276,14 +276,15 @@ h3 {
 
 .button {
   background-color: #7d73fc;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  font-style: normal;
+  color: #edecff;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
+  border: none;
+  font-size: 12px;
+  line-height: 24px;
+  width: 89px;
+  height: 48px;
 }
 
 /*  */
@@ -328,14 +329,15 @@ h3 {
 
 .button2 {
   background-color: #7d73fc;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  font-style: normal;
+  color: #edecff;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
+  border: none;
+  font-size: 12px;
+  line-height: 24px;
+  width: 89px;
+  height: 48px;
 }
 
 /*  */
@@ -380,14 +382,15 @@ h3 {
 
 .button3 {
   background-color: #7d73fc;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  font-style: normal;
+  color: #edecff;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
+  border: none;
+  font-size: 12px;
+  line-height: 24px;
+  width: 89px;
+  height: 48px;
 }
 
 /*  */
@@ -432,14 +435,15 @@ h3 {
 
 .button4 {
   background-color: #7d73fc;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  font-style: normal;
+  color: #edecff;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
+  border: none;
+  font-size: 12px;
+  line-height: 24px;
+  width: 89px;
+  height: 48px;
 }
 
 .ellipse3 {
