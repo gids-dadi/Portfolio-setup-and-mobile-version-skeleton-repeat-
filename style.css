@@ -68,7 +68,7 @@ h1 {
   width: 327px;
   padding-top: 65px;
   font-size: 50px;
-  font-weight: 5px;
+  font-weight: 500;
   font-style: normal;
   line-height: 70px;
   letter-spacing: 1.8px;
@@ -287,8 +287,6 @@ h3 {
   height: 48px;
 }
 
-/*  */
-
 .img-placeholder2 {
   margin-top: 40px;
   width: 327px;
@@ -340,8 +338,6 @@ h3 {
   height: 48px;
 }
 
-/*  */
-
 .img-placeholder3 {
   margin-top: 40px;
   width: 327px;
@@ -392,8 +388,6 @@ h3 {
   width: 89px;
   height: 48px;
 }
-
-/*  */
 
 .img-placeholder4 {
   margin-top: 40px;
