@@ -211,7 +211,6 @@ h3 {
 }
 
 .my-work-header {
-  text-align: left;
   font-size: 30px;
   font-style: normal;
   font-weight: 501;
@@ -221,6 +220,7 @@ h3 {
   color: #9490ff;
   padding-top: 50px;
   padding-bottom: 10px;
+  padding-left: 24px;
 }
 
 .vector6 {
@@ -286,6 +286,21 @@ h3 {
   height: 48px;
 }
 
+.button:hover {
+  background: #7d73fc;
+  border: 1px solid #7d73fc;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.5);
+}
+
+.button:active {
+  background: #5e42d7;
+  border: 1px solid #7d73fc;
+}
+
+.button:disabled {
+  background: #2a2b33;
+}
+
 .img-placeholder2 {
   margin-top: 40px;
   width: 327px;
@@ -334,6 +349,21 @@ h3 {
   line-height: 24px;
   width: 89px;
   height: 48px;
+}
+
+.button2:hover {
+  background: #7d73fc;
+  border: 1px solid #7d73fc;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.5);
+}
+
+.button2:active {
+  background: #5e42d7;
+  border: 1px solid #7d73fc;
+}
+
+.button2:disabled {
+  background: #2a2b33;
 }
 
 .img-placeholder3 {
@@ -386,6 +416,21 @@ h3 {
   height: 48px;
 }
 
+.button3:hover {
+  background: #7d73fc;
+  border: 1px solid #7d73fc;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.5);
+}
+
+.button3:active {
+  background: #5e42d7;
+  border: 1px solid #7d73fc;
+}
+
+.button3:disabled {
+  background: #2a2b33;
+}
+
 .img-placeholder4 {
   margin-top: 40px;
   width: 327px;
@@ -434,6 +479,21 @@ h3 {
   line-height: 24px;
   width: 89px;
   height: 48px;
+}
+
+.button4:hover {
+  background: #7d73fc;
+  border: 1px solid #7d73fc;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.5);
+}
+
+.button4:active {
+  background: #5e42d7;
+  border: 1px solid #7d73fc;
+}
+
+.button4:disabled {
+  background: #2a2b33;
 }
 
 .ellipse3 {
