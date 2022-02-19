@@ -289,7 +289,7 @@ h3 {
 .button:hover {
   background: #7d73fc;
   border: 1px solid #7d73fc;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.5);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.5);
 }
 
 .button:active {
@@ -354,7 +354,7 @@ h3 {
 .button2:hover {
   background: #7d73fc;
   border: 1px solid #7d73fc;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.5);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.5);
 }
 
 .button2:active {
@@ -419,7 +419,7 @@ h3 {
 .button3:hover {
   background: #7d73fc;
   border: 1px solid #7d73fc;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.5);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.5);
 }
 
 .button3:active {
@@ -484,7 +484,7 @@ h3 {
 .button4:hover {
   background: #7d73fc;
   border: 1px solid #7d73fc;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.5);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.5);
 }
 
 .button4:active {
