@@ -1,9 +1,15 @@
 #Gideon's Portfolio-setup-and-mobile-version-skeleton
 
-Description of the project.
-My personal portfolio project. A clone of figma, it contains informtion about my tech skills and competencies as well as previous work gallery.
+# Description of the project.
+
+My personal portfolio project. A clone of figma, it contains informtion about my tech skills and competencies.
 
 Built With: HTML and CSS
+
+Live Demo
+https://gids-dadi.github.io/Portfolio-setup-and-mobile-version-skeleton-repeat-/
+
+> > > > > > > feature-homePage-design
 
 ## Getting Started
 
