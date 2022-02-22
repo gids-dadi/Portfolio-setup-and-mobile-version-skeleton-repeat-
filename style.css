@@ -549,8 +549,23 @@ h3 {
 }
 
 .contact-us {
-  width: 327px;
+  display: flex;
+  flex-direction: column;
+  width: 375px;
   height: 292px;
   background: #191765;
   border: white solid 2px;
+}
+
+.contact-us h2 {
+  color: #9390ff;
+}
+
+.contact-us p {
+  color: #f5f5ff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
 }
