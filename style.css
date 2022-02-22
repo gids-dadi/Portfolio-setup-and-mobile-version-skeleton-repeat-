@@ -549,10 +549,12 @@ h3 {
 }
 
 .contact-us {
+  margin-left: 24px;
+  margin-right: 24px;
   display: flex;
   flex-direction: column;
-  width: 375px;
   height: 292px;
+  width: 327px;
   background: #191765;
   border: white solid 2px;
 }
@@ -566,6 +568,7 @@ h3 {
 }
 
 .contact-form {
+  
   display: flex;
   flex-direction: column;
 }
