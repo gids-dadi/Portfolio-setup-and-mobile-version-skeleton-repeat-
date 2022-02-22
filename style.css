@@ -5,7 +5,7 @@
 
 body {
   position: relative;
-  height: 5415px;
+  height: 5285px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -36,7 +36,7 @@ header {
 
 .main-mobile-section {
   width: 375px;
-  height: 4316.15px;
+  height: 4216.15px;
   background-color: #191765;
   top: 19px;
 }
@@ -114,8 +114,8 @@ h3 {
   width: 327px;
   left: 24px;
   right: 24px;
-  top: 600px;
-  bottom: 4879px;
+  top: 530px;
+  /* bottom: 4879px; */
   height: 0;
   border: 1px solid#646369;
 }
@@ -128,7 +128,7 @@ h3 {
   align-items: stretch;
   height: 182.15px;
   padding-left: 56px;
-  padding-top: 160px;
+  padding-top: 60px;
   border-radius: 0;
   color: #f5f5ff;
   width: 375px;
@@ -169,7 +169,7 @@ h3 {
   width: 327px;
   left: 24px;
   right: 24px;
-  top: 1180px;
+  top: 1040px;
   border-radius: 0;
   border: 1px solid#646369;
 }
@@ -180,7 +180,7 @@ h3 {
   flex-direction: row;
   flex: 1;
   padding-left: 70px;
-  padding-top: 390px;
+  padding-top: 340px;
   align-items: center;
   justify-content: space-between;
   width: 190px;
@@ -201,7 +201,7 @@ h3 {
   flex-direction: row;
   justify-content: center;
   align-items: baseline;
-  padding-top: 450px;
+  padding-top: 420px;
 }
 
 .work-arrow a {
@@ -221,7 +221,7 @@ h3 {
   letter-spacing: 2px;
   width: 250px;
   color: #9490ff;
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 10px;
   padding-left: 24px;
 }
@@ -551,32 +551,152 @@ h3 {
 }
 
 .contact-us {
-  /* margin-left: 24px; */
-  /* margin-right: 24px; */
   display: flex;
   flex-direction: column;
-  height: 367px;
-  width: 375px;
+  height: 800px;
+  width: 327px;
   background: #191765;
-  border: red solid 2px;
-  padding: 0px;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .contact-us h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
   color: #9390ff;
-  padding: 20px;
 }
 
 .contact-us p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
   color: #f5f5ff;
-  padding: 20px;
+  height: 35px;
+  padding: 15px;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 327px;
+  padding-top: 40px;
+  padding-right: 24px;
+}
+
+input[type='text'] {
+  width: 327px;
+  height: 48px;
+  align-self: center;
+  padding-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+input[type='email'] {
+  width: 327px;
+  height: 48px;
+  align-self: center;
+  padding-left: 10px;
+  margin-top: 12px;
+  background: #f7f3ff;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 327px;
+  height: 148px;
+  margin-top: 24px;
+  padding-left: 10px;
+  padding: 12px;
+  background: #fff;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.email-description {
+  position: absolute;
+  height: 20px;
+  width: 200px;
+  align-self: center;
+  left: 90px;
+  top: 4970px;
+  border-radius: nullpx;
+}
+
+.contact-buttton {
+  background-color: #7d73fc;
+  font-style: normal;
+  color: #edecff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-size: 12px;
+  line-height: 24px;
+  width: 89px;
+  height: 48px;
+  margin: 20px;
+}
+
+.contact-buttton:hover {
+  background: #7d73fc;
+  border: 1px solid #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.5);
+}
+
+.contact-buttton:active {
+  background: #5e42d7;
+  border: 1px solid #7d73fc;
+}
+
+.contact-buttton:disabled {
+  background: #2a2b33;
+}
+
+.social-media-icons2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 190px;
+  padding-left: 70px;
+  top: 4930px;
+  align-items: center;
   justify-content: space-between;
-  /* margin: 20px; */
-  /* align-content: center; */
-  /* width: 327px; */
+}
+
+.social-media-icons2 a {
+  text-decoration: none;
+  color: #f5f5ff;
+}
+
+.social-media-icons2 li {
+  list-style: none;
+}
+
+.vector7 {
+  position: absolute;
+  height: 0;
+  width: 327px;
+  top: 4900px;
+  border: 1px solid#646369;
+}
+
+.shape {
+  position: absolute;
+  height: 5px;
+  width: 134px;
+  left: 120px;
+  top: 5075px;
+  background: #0d151e;
+  bottom: 8px;
+  border-radius: 10px;
 }
