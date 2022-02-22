@@ -235,6 +235,7 @@ h3 {
 .my-work {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 24px;
 }
 
