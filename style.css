@@ -4,6 +4,8 @@
 }
 
 body {
+  position: relative;
+  height: 5415px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -549,26 +551,32 @@ h3 {
 }
 
 .contact-us {
-  margin-left: 24px;
-  margin-right: 24px;
+  /* margin-left: 24px; */
+  /* margin-right: 24px; */
   display: flex;
   flex-direction: column;
-  height: 292px;
-  width: 327px;
+  height: 367px;
+  width: 375px;
   background: #191765;
-  border: white solid 2px;
+  border: red solid 2px;
+  padding: 0px;
 }
 
 .contact-us h2 {
   color: #9390ff;
+  padding: 20px;
 }
 
 .contact-us p {
   color: #f5f5ff;
+  padding: 20px;
 }
 
 .contact-form {
-  
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  /* margin: 20px; */
+  /* align-content: center; */
+  /* width: 327px; */
 }
