@@ -547,3 +547,10 @@ h3 {
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   opacity: 0.9;
 }
+
+.contact-us {
+  width: 327px;
+  height: 292px;
+  background: #191765;
+  border: white solid 2px;
+}
