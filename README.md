@@ -2,20 +2,17 @@
 
 # Description of the project.
 
-My personal portfolio project. A clone of figma, it contains informtion about my tech skills and competencies.
+My personal portfolio project. A clone of figma, it contains informtion about my tech skills and competencies. I have also added he contact form in this branch.
 
 Built With: HTML and CSS
 
 Live Demo
-https://gids-dadi.github.io/Portfolio-setup-and-mobile-version-skeleton-repeat-/
-
-> > > > > > > feature-homePage-design
 
 ## Getting Started
 
 This is an exercise required creating a repo, adding a .gitignore file, setting two different sections of the portfolio site and linters for html&css.
 
-👤 Author
+👤 Gideon Dadi
 
 - GitHub: [@gids_dadi](https://github.com/gids-dadi)
 - Twitter: [@Dadi_AG](https://twitter.com/Dadi_AG)
@@ -24,6 +21,8 @@ Show your support
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+-All the collaborators on this branch.
 
 - Thanks to Microverse code reviewers for your excellent reviews geared making me a great programmer.
 
