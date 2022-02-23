@@ -4,8 +4,8 @@
 }
 
 body {
-  position: relative;
-  height: 5285px;
+  position: absolute;
+  height: 4930px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -15,7 +15,7 @@ header {
   align-items: center;
   background-color: #191765;
   width: 375px;
-  height: 60px;
+  height: 50px;
 }
 
 .name_logo {
@@ -551,7 +551,7 @@ h3 {
 .contact-us {
   display: flex;
   flex-direction: column;
-  height: 800px;
+  height: 790px;
   width: 327px;
   background: #191765;
   padding-top: 10px;
@@ -599,6 +599,10 @@ input[type='text'] {
   box-sizing: border-box;
 }
 
+.contact-form ul li {
+  list-style: none;
+}
+
 input[type='email'] {
   width: 327px;
   height: 48px;
@@ -613,7 +617,8 @@ textarea {
   width: 327px;
   height: 148px;
   margin-top: 24px;
-  padding-left: 12px;
+  padding-left: 10px;
+  color: #81818c;
   background: #fff;
   box-sizing: border-box;
   resize: none;
@@ -639,22 +644,26 @@ textarea {
   line-height: 24px;
   width: 89px;
   height: 48px;
-  margin: 20px;
+  margin: 40px;
 }
 
-.contact-buttton:hover {
+.contact-buttton:hover,
+button[hover] {
   background: #7d73fc;
   border: 1px solid #7d73fc;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.5);
 }
 
-.contact-buttton:active {
+.contact-buttton:active,
+button[active] {
   background: #5e42d7;
   border: 1px solid #7d73fc;
 }
 
-.contact-buttton:disabled {
+.contact-buttton:disabled,
+button[disabled] {
   background: #2a2b33;
+  width: 44px;
 }
 
 .social-media-icons2 {
@@ -664,7 +673,7 @@ textarea {
   flex: 1;
   width: 190px;
   padding-left: 70px;
-  top: 4930px;
+  top: 4940px;
   align-items: center;
   justify-content: space-between;
 }
@@ -682,7 +691,7 @@ textarea {
   position: absolute;
   height: 0;
   width: 327px;
-  top: 4900px;
+  top: 4920px;
   border: 1px solid#646369;
 }
 
@@ -691,8 +700,8 @@ textarea {
   height: 5px;
   width: 134px;
   left: 120px;
-  top: 5075px;
+  top: 5020px;
   background: #0d151e;
-  bottom: 8px;
+  /* bottom: 8px; */
   border-radius: 10px;
 }
