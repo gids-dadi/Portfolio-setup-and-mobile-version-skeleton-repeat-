@@ -1,0 +1,20 @@
+@media (min-width: 992px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    height: 4651px;
+    width: 1440px;
+    left: -729px;
+    top: -2311px;
+    border-radius: 0px;
+    background: #191765;
+  }
+
+  header {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  background-color: #191765;
+  width: 375px;
+  height: 50px;
+}
+}
