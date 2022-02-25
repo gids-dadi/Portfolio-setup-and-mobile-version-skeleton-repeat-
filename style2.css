@@ -362,7 +362,7 @@
   .contact-us {
     display: flex;
     flex-direction: column;
-    height: 768px;
+    height: 868px;
     width: 100%;
     background: #191765;
     padding-top: 10px;
@@ -420,11 +420,26 @@
   textarea {
     width: 684px;
   }
+
+  .vector7 {
+    position: absolute;
+    height: 0;
+    width: 1440px;
+    top: 4450px;
+    border: 1px solid#646369;
+  }
+
   .icons-mail-format {
     position: absolute;
+    top: 4000px;
     width: 144px;
     height: 72px;
     display: flex;
     flex-direction: row;
+    border: red solid 2px;
+  }
+
+  .shape {
+    display: none;
   }
 }
