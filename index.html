@@ -270,69 +270,74 @@
           method="POST"
         >
           <ul>
-            <li class="mobile-screen">
-              <input
-                type="text"
-                name="username"
-                placeholder="Text input"
-                required
-                maxlength="30"
-              />
-            </li>
+            <div class="mobile-screen">
+              <li>
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Text input"
+                  required
+                  maxlength="30"
+                />
+              </li>
+              <li>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="jeremy@gmail.com"
+                  required
+                />
+              </li>
 
-            <li class="large-screen">
-              <input
-                type="text"
-                name="username"
-                placeholder="Jeremy"
-                required
-                maxlength="30"
-              />
-            </li>
-
-            <li class="mobile-screen">
-              <input
-                type="email"
-                name="email"
-                placeholder="jeremy@gmail.com"
-                required
-              />
-            </li>
-
-            <li class="large-screen">
-              <input
-                type="email"
-                name="email"
-                placeholder="Email Adress"
-                required
-              />
-            </li>
-
-            <li class="mobile-screen">
-              <textarea
-                rows="10"
-                cols="30"
-                id="message"
-                name="usermessage"
-                maxlength="500"
-                required
-              >
+              <li>
+                <textarea
+                  rows="10"
+                  cols="30"
+                  id="message"
+                  name="usermessage"
+                  maxlength="500"
+                  required
+                >
 Enter Text here
-              </textarea>
-            </li>
+              </textarea
+                >
+              </li>
+            </div>
 
-            <li class="large-screen">
-              <textarea
-                rows="10"
-                cols="30"
-                id="message"
-                name="usermessage"
-                maxlength="500"
-                required
-              >
+            <div class="large-screen">
+              <li>
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Jeremy"
+                  required
+                  maxlength="30"
+                />
+              </li>
+
+              <li>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Adress"
+                  required
+                />
+              </li>
+
+              <li>
+                <textarea
+                  rows="10"
+                  cols="30"
+                  id="message"
+                  name="usermessage"
+                  maxlength="500"
+                  required
+                >
 Write your message here
-              </textarea>
-            </li>
+              </textarea
+                >
+              </li>
+            </div>
           </ul>
           <button class="contact-buttton" type="submit">See Project</button>
         </form>
