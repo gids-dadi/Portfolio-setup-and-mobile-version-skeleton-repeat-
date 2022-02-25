@@ -41,11 +41,10 @@
     padding: 20px;
   }
 
-  .menu-bar {
-    display: none;
+  .notification {
   }
 
-  .large-screen {
+  .menu-bar {
     display: none;
   }
 
@@ -414,6 +413,7 @@
     padding-right: 24px;
     padding-left: 400px;
   }
+
   input[type='text'] {
     width: 684px;
   }
@@ -423,6 +423,10 @@
   }
   textarea {
     width: 684px;
+  }
+
+  .mobile-screen {
+    display: none;
   }
 
   .vector7 {
