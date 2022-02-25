@@ -218,6 +218,14 @@ h3 {
   font-size: 20px;
   font-style: normal;
 }
+.work-arrow2 a {
+  text-decoration: none;
+  color: #a2a3ae;
+  font-weight: 520;
+  line-height: 32px;
+  font-size: 20px;
+  font-style: normal;
+}
 
 .my-work-header {
   font-size: 30px;
@@ -331,7 +339,7 @@ h3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
   padding: 0;
@@ -397,7 +405,7 @@ h3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
 }
@@ -462,7 +470,7 @@ h3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
 }

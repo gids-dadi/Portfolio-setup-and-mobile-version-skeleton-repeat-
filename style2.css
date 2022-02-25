@@ -4,9 +4,8 @@
 } */
   header {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: auto;
-    justify-content: flex-start;
   }
 
   .name_logo {
@@ -18,8 +17,6 @@
     color: #fff;
     width: 101px;
     height: 40px;
-    transition: tranform 3s;
-    transition: 1s ease-in-out;
   }
 
   header nav {
@@ -29,7 +26,7 @@
     margin-left: 960px;
   }
   .nav-menu {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -60,7 +57,7 @@
     position: absolute;
     height: 184px;
     width: 154px;
-    left: 29px;
+    left: 30px;
     right: 72px;
     top: 237px;
     border-radius: 100%;
@@ -71,7 +68,7 @@
   .ellipse2 {
     height: 226px;
     width: 226px;
-    left: 1243px;
+    left: 1143px;
     top: 506px;
     border-radius: 100%;
     color: #edecff;
@@ -197,19 +194,17 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    width: 1100px;
+    width: 946px;
     height: 40px;
     flex-wrap: wrap;
-    left: 350px;
-    top: 1100px;
+    left: 268px;
+    top: 1150px;
     margin: 24px;
-    /* border: white solid 2px; */
   }
   .social-media-icons {
     position: absolute;
-    left: 450px;
+    left: 330px;
     padding-left: 750px;
-    padding-top: 1020px;
     align-self: center;
     align-items: center;
     width: 190px;
@@ -218,12 +213,18 @@
 
   .work-arrow {
     position: absolute;
+    left: 820px;
     display: flex;
     align-self: flex-end;
     padding: 0;
   }
 
   .work-arrow2 {
+    position: absolute;
+    left: 30px;
+    display: flex;
+    align-self: flex-end;
+    padding: 0;
   }
 
   .my-work-header {
@@ -252,9 +253,6 @@
 
   .my-work {
     width: 1156px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 142px;
   }
 
@@ -283,11 +281,13 @@
   .work-wrap1 {
     grid-column: 2;
     grid-row: 1;
+    margin: 24px;
   }
 
   .img-placeholder2 {
     width: 684px;
     height: 448px;
+    margin: 24px;
     background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
   .my-work-2 p {
@@ -307,11 +307,12 @@
   .work-wrap2 {
     grid-column: 1;
     grid-row: 1;
+    margin: 24px;
   }
   .img-placeholder3 {
     width: 684px;
     height: 448px;
-
+    margin: 24px;
     background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
   .my-work-3 p {
@@ -338,6 +339,7 @@
   .img-placeholder4 {
     width: 684px;
     height: 448px;
+    margin: 24px;
     background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
   .my-work-4 p {
@@ -357,13 +359,14 @@
   .work-wrap4 {
     grid-column: 1;
     grid-row: 1;
+    margin: 24px;
   }
 
   .contact-us {
     display: flex;
     flex-direction: column;
     height: 868px;
-    width: 100%;
+    width: 1440px;
     background: #191765;
     padding-top: 10px;
     padding-left: 24px;
@@ -376,8 +379,7 @@
 
   .contact-us h3 {
     position: absolute;
-    top: 3700px;
-
+    top: 3800px;
     line-height: 56px;
     text-align: center;
     font-style: normal;
@@ -391,12 +393,12 @@
     position: absolute;
     font-family: 'Inter', sans-serif;
     font-size: 26px;
-    line-height: 24px;
+    line-height: 30px;
     left: 290px;
     color: #f5f5ff;
     height: 40px;
     width: 890px;
-    padding-top: 80px;
+    padding-top: 200px;
   }
 
   .contact-form {
@@ -429,17 +431,75 @@
     border: 1px solid#646369;
   }
 
-  .icons-mail-format {
+  .social-media-icons2 {
     position: absolute;
-    top: 4000px;
-    width: 144px;
-    height: 72px;
-    display: flex;
-    flex-direction: row;
-    border: red solid 2px;
+    width: 190px;
+    left: 480px;
+    top: 4460px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .email-description {
+    position: absolute;
+    height: 25px;
+    width: 250px;
+    align-self: center;
+    left: 760px;
+    top: 4460px;
   }
 
   .shape {
     display: none;
+  }
+
+  .ellipse3 {
+    position: absolute;
+    height: 702.57px;
+    width: 57.53px;
+    left: -90px;
+    top: 1480px;
+    background: #edecff;
+    border-radius: 50%;
+    filter: blur(20px);
+    transform: rotate(-56.38deg);
+    opacity: 0.8;
+  }
+
+  .ellipse4 {
+    position: absolute;
+    height: 402.57px;
+    width: 50px;
+    left: 1513.28px;
+    top: 2257px;
+    background: #edecff;
+    border-radius: 50%;
+    filter: blur(20px);
+    transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+    opacity: 1;
+  }
+
+  .ellipse5 {
+    position: absolute;
+    height: 155px;
+    width: 308px;
+    left: -41px;
+    top: 2848px;
+    background: #edecff;
+    border-radius: 100%;
+    filter: blur(20px);
+    transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+  }
+
+  .ellipse6 {
+    position: absolute;
+    height: 916.19px;
+    width: 246.29px;
+    left: 1090.3px;
+    top: 2934px;
+    background: #edecff;
+    border-radius: 50%;
+    filter: blur(20px);
+    transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
 }
