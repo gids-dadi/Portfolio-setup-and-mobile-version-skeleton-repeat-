@@ -35,6 +35,10 @@ header nav {
   display: none;
 }
 
+.contact-us h3 {
+  display: none;
+}
+
 .name_logo {
   color: #edecff;
   text-decoration: none;
