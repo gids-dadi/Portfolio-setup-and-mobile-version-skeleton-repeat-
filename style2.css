@@ -18,7 +18,7 @@
     color: #fff;
     width: 101px;
     height: 40px;
-    transition: tranform 3s;
+    transition: tranform 2s;
     transition: 1s ease-in-out;
   }
 
@@ -27,6 +27,8 @@
     height: 72px;
     display: flex;
     margin-left: 960px;
+    transition: tranform 2s;
+    transition: 1s ease-in-out;
   }
   .nav-menu {
     position: relative;
@@ -92,6 +94,7 @@
     letter-spacing: 1.8px;
     text-align: center;
     color: #9391ff;
+    transform: transition 3s;
   }
 
   h3 {
