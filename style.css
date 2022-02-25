@@ -27,6 +27,14 @@ header {
   height: 50px;
 }
 
+header nav {
+  display: none;
+}
+
+.large-screen {
+  display: none;
+}
+
 .name_logo {
   color: #edecff;
   text-decoration: none;

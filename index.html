@@ -270,7 +270,7 @@
           method="POST"
         >
           <ul>
-            <li>
+            <li class="mobile-screen">
               <input
                 type="text"
                 name="username"
@@ -280,7 +280,17 @@
               />
             </li>
 
-            <li>
+            <li class="large-screen">
+              <input
+                type="text"
+                name="username"
+                placeholder="Jeremy"
+                required
+                maxlength="30"
+              />
+            </li>
+
+            <li class="mobile-screen">
               <input
                 type="email"
                 name="email"
@@ -289,7 +299,16 @@
               />
             </li>
 
-            <li>
+            <li class="large-screen">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Adress"
+                required
+              />
+            </li>
+
+            <li class="mobile-screen">
               <textarea
                 rows="10"
                 cols="30"
@@ -299,6 +318,19 @@
                 required
               >
 Enter Text here
+              </textarea>
+            </li>
+
+            <li class="large-screen">
+              <textarea
+                rows="10"
+                cols="30"
+                id="message"
+                name="usermessage"
+                maxlength="500"
+                required
+              >
+Write your message here
               </textarea>
             </li>
           </ul>
