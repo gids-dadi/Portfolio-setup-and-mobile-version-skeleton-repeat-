@@ -245,7 +245,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 24px;
+  margin-left: 24px;
 }
 
 .img-placeholder1 {
@@ -564,7 +564,7 @@ h3 {
   height: 760px;
   width: 327px;
   background: #191765;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -574,7 +574,6 @@ h3 {
   top: 4226px;
   bottom: 744px;
   left: 90px;
-  /* text-align: center; */
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -582,9 +581,9 @@ h3 {
   color: #9390ff;
 }
 
-.contact-us h3 {
+/* .contact-us h3 {
   display: none;
-}
+} */
 
 .contact-us p {
   font-family: 'Inter', sans-serif;

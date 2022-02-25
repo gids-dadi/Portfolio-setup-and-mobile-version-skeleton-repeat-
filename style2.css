@@ -252,7 +252,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 142px;
+    padding: 142px;
   }
 
   .img-placeholder1 {
@@ -345,8 +345,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    /* justify-content: center; */
-    margin: 142px;
   }
 
   .img-placeholder4 {
@@ -358,15 +356,10 @@
     grid-row: 1;
   }
 
-  footer {
-    background: #191765;
-    width: 100%;
-    height: auto;
-  }
   .contact-us {
     display: flex;
     flex-direction: column;
-    /* height: 760px; */
+    height: 768px;
     width: 100%;
     background: #191765;
     padding-top: 10px;
@@ -378,13 +371,29 @@
     display: none;
   }
 
-  .desktop-headding {
+  .contact-us h3 {
+    position: absolute;
+    top: 3700px;
+
+    line-height: 56px;
     text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 24px;
     color: #9390ff;
+  }
+
+  .contact-us p {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    line-height: 24px;
+    left: 290px;
+    color: #f5f5ff;
+    height: 40px;
+    width: 890px;
+    padding-top: 80px;
   }
 
   .contact-form {
