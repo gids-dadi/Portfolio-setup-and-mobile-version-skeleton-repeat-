@@ -27,6 +27,8 @@
     height: 72px;
     display: flex;
     margin-left: 960px;
+    transition: tranform 2s;
+    transition: 1s ease-in-out;
   }
   .nav-menu {
     position: relative;
