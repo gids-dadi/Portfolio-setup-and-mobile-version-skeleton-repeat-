@@ -58,6 +58,11 @@
     background-color: #191765;
   }
 
+  footer {
+    width: 100%;
+    height: auto;
+  }
+
   .ellipse1 {
     position: absolute;
     height: 184px;
