@@ -31,6 +31,7 @@ header {
 .nav-menu {
   display: none;
 }
+
 .notification {
   visibility: hidden;
 }
@@ -612,7 +613,7 @@ h3 {
   padding: 15px;
 }
 
- .mobile-screen {
+.mobile-screen {
   position: absolute;
   top: 4400px;
   display: flex;
