@@ -13,10 +13,9 @@ ul li {
 
 body {
   position: absolute;
-  width: auto;
-  height: 4900px;
+  width: 100%;
+  height: auto;
   font-family: 'Roboto', sans-serif;
-  overflow-x: hidden;
 }
 
 header {

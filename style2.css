@@ -20,7 +20,7 @@
     width: auto;
     height: 72px;
     display: flex;
-    margin-left: 960px;
+    margin-left: 1260px;
   }
 
   .nav-menu {
@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px;
+    margin: 12px;
     justify-content: space-between;
     color: #fff;
   }
@@ -44,8 +44,8 @@
   .notification {
     visibility: visible;
     position: absolute;
-    left: 1300px;
-    padding: 10px;
+    left: 1590px;
+    padding: 15px;
   }
 
   .menu-bar {
@@ -62,7 +62,7 @@
     position: absolute;
     height: 184px;
     width: 154px;
-    left: 30px;
+    left: 40px;
     right: 72px;
     top: 237px;
     border-radius: 100%;
@@ -73,7 +73,7 @@
   .ellipse2 {
     height: 226px;
     width: 226px;
-    left: 1143px;
+    left: 1434px;
     top: 506px;
     border-radius: 100%;
     color: #edecff;
@@ -83,7 +83,7 @@
   h1 {
     position: absolute;
     width: 1156px;
-    left: 142px;
+    left: 292px;
     right: 242px;
     height: 50px;
     top: 186px;
@@ -106,7 +106,7 @@
     line-height: 47px;
     letter-spacing: 0;
     text-align: center;
-    left: 142px;
+    left: 293px;
     right: 242px;
     top: 386px;
     color: #edecff;
@@ -117,7 +117,7 @@
     width: 447px;
     height: 155px;
     top: 474px;
-    left: 500px;
+    left: 650px;
     right: 600px;
   }
 
@@ -133,7 +133,7 @@
   .vector4 {
     position: absolute;
     width: 448px;
-    left: 520px;
+    left: 670px;
     right: 24px;
     top: 684px;
     height: 0;
@@ -143,7 +143,7 @@
   .tech-experience {
     position: absolute;
     margin-top: 700px;
-    left: 500px;
+    left: 650px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -169,18 +169,18 @@
   }
 
   .language {
-    width: 20px;
+    width: 100px;
     height: 214.15px;
   }
 
   .frameworks {
-    width: 20px;
+    width: 100px;
     height: 214.15px;
     left: 178px;
   }
 
   .skills {
-    width: 20px;
+    width: 100px;
     height: 214.15px;
     left: 147px;
   }
@@ -188,9 +188,8 @@
   .vector5 {
     position: absolute;
     width: 448px;
-    left: 20px;
     right: 24px;
-    top: 384px;
+    top: 364px;
     height: 0;
     border: 1px solid#646369;
   }
@@ -202,7 +201,7 @@
     width: 946px;
     height: 40px;
     flex-wrap: wrap;
-    left: 268px;
+    left: 418px;
     top: 1150px;
     margin: 24px;
   }
@@ -247,8 +246,8 @@
     letter-spacing: 2px;
     width: 544px;
     color: #9390ff;
-    padding-top: 1307px;
-    padding-bottom: 10px;
+    padding-top: 1407px;
+    /* padding-bottom: 10px; */
     padding-left: 142px;
     text-transform: capitalize;
   }
@@ -256,15 +255,16 @@
   .vector6 {
     position: absolute;
     height: 0;
-    width: 1156px;
+    width: 1476px;
     margin: 142px;
-    top: 1310px;
+    top: 1330px;
     border: 1px solid#646369;
   }
 
   .my-work {
     width: 1156px;
-    padding: 142px;
+    padding-left: 242px;
+    padding-right: 242px;
   }
 
   .my-work-1 p {
@@ -375,7 +375,7 @@
     display: flex;
     flex-direction: column;
     height: 868px;
-    width: 1440px;
+    width: 100%;
     background: #191765;
     padding-top: 10px;
     padding-left: 24px;
@@ -388,7 +388,7 @@
 
   .contact-us h3 {
     position: absolute;
-    top: 3800px;
+    top: 3650px;
     display: block;
     text-align: center;
     font-style: normal;
@@ -404,7 +404,7 @@
     text-align: center;
     font-size: 26px;
     line-height: 30px;
-    left: 290px;
+    left: 410px;
     color: #f5f5ff;
     height: 40px;
     width: 880px;
@@ -420,7 +420,7 @@
     width: 684px;
     padding-top: 300px;
     padding-right: 24px;
-    left: 410px;
+    left: 510px;
   }
 
   input[type='text'] {
@@ -441,8 +441,8 @@
 
   .contact-button {
     position: absolute;
-    top: 4380px;
-    left: 734px;
+    top: 4220px;
+    left: 800px;
     font-size: 12px;
     line-height: 24px;
     width: 89px;
@@ -453,16 +453,17 @@
   .vector7 {
     position: absolute;
     height: 0;
-    width: 1440px;
-    top: 4500px;
+    width: 1476px;
+    margin: 142px;
+    top: 4150px;
     border: 1px solid#646369;
   }
 
   .social-media-icons2 {
     position: absolute;
     width: 190px;
-    left: 480px;
-    top: 4510px;
+    left: 580px;
+    top: 4310px;
     align-items: center;
     justify-content: space-between;
   }
@@ -472,8 +473,8 @@
     height: 25px;
     width: 250px;
     align-self: center;
-    left: 760px;
-    top: 4510px;
+    left: 860px;
+    top: 4310px;
   }
 
   .shape {
