@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -12,10 +13,11 @@ ul li {
 }
 
 body {
-  position: absolute;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
   width: 100%;
   height: auto;
-  font-family: 'Roboto', sans-serif;
+  justify-content: center;
 }
 
 header {
@@ -23,8 +25,7 @@ header {
   justify-content: stretch;
   align-items: center;
   background-color: #191765;
-  width: 375px;
-  height: 50px;
+  width: 100%;
 }
 
 .nav-menu {
@@ -56,11 +57,15 @@ header {
   color: #e5e5e5;
 }
 
-.main-mobile-section {
-  width: 375px;
-  height: 4216.15px;
+body section footer {
+  width: 100%;
+  height: auto;
   background-color: #191765;
-  top: 19px;
+}
+
+.main-mobile-section {
+  width: 100%;
+  background-color: #191765;
 }
 
 .ellipse1 {
@@ -100,7 +105,7 @@ h1 {
   text-align: center;
   padding-bottom: 40px;
   color: #7d73fc;
-  padding-left: 25px;
+  /* padding-left: 25px; */
 }
 
 h3 {
@@ -111,14 +116,14 @@ h3 {
   font-weight: 600;
   letter-spacing: 0;
   text-align: center;
-  padding-left: 24px;
+  /* padding-left: 24px; */
   padding-bottom: 1px;
   color: #edecff;
 }
 
 .advert-text {
   width: 333px;
-  height: 170px;
+  /* height: 170px; */
   margin: 24px 24px;
 }
 
@@ -143,11 +148,9 @@ h3 {
 
 .tech-experience {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
-  height: 182.15px;
   padding-left: 56px;
   padding-top: 60px;
   border-radius: 0;
@@ -160,27 +163,22 @@ h3 {
   font-size: 12px;
   font-style: normal;
 }
+.language-framework {
+  display: flex;
+  justify-content: space-between;
+}
 
-.tech-experience ul {
+.language-framework ul {
   font-size: 13px;
   line-height: 35px;
-}
-
-.language {
-  width: 20px;
-  height: 214.15px;
-}
-
-.frameworks {
-  width: 200px;
-  height: 214.15px;
-  left: 178px;
+  width: 50%;
 }
 
 .skills {
+  font-style: normal;
   width: 200px;
-  height: 214.15px;
-  left: 147px;
+  font-size: 12px;
+  line-height: 35px;
 }
 
 .vector5 {
@@ -195,15 +193,14 @@ h3 {
 }
 
 .social-media-icons {
-  position: absolute;
+  /* width: 100px; */
   display: flex;
   flex-direction: row;
   flex: 1;
-  padding-left: 70px;
-  padding-top: 340px;
-  align-items: center;
-  justify-content: space-between;
-  width: 190px;
+  /* padding-left: 60px; */
+  /* padding-top: 85px; */
+  /* margin-left: 50px; */
+  /* justify-content: space-between; */
 }
 
 .social-media-icons a {
@@ -214,9 +211,7 @@ h3 {
 .work-arrow {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-  padding-top: 420px;
+  padding-top: 70px;
 }
 
 .work-arrow a {
@@ -229,7 +224,7 @@ h3 {
 }
 
 .work-arrow2 {
-  visibility: hidden;
+  display: none;
   color: #a2a3ae;
   font-weight: 520;
   line-height: 32px;
@@ -240,13 +235,12 @@ h3 {
 .my-work-header {
   font-size: 30px;
   font-style: normal;
-  font-weight: 501;
+  font-weight: bold;
   line-height: 40px;
   letter-spacing: 2px;
   width: 250px;
   color: #9490ff;
   padding-top: 70px;
-  padding-bottom: 10px;
   padding-left: 24px;
   text-transform: uppercase;
 }
@@ -262,8 +256,26 @@ h3 {
 .my-work {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-left: 24px;
+}
+
+.my-work-1 {
+  margin: 24px;
+  padding-left: 10px;
+}
+
+.my-work-2 {
+  margin: 24px;
+  padding-left: 10px;
+}
+
+.my-work-3 {
+  margin: 24px;
+  padding-left: 10px;
+}
+
+.my-work-4 {
+  margin: 24px;
+  padding-left: 10px;
 }
 
 .img-placeholder1 {
@@ -287,6 +299,7 @@ h3 {
   font-size: 20px;
   line-height: 30px;
   color: #dcdce8;
+  height: 204px;
 }
 
 .tech-used-1 {
@@ -353,6 +366,7 @@ h3 {
   line-height: 28px;
   color: #dcdce8;
   padding: 0;
+  height: 204px;
 }
 
 .tech-used2 {
@@ -418,6 +432,7 @@ h3 {
   font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
+  height: 204px;
 }
 
 .tech-used3 {
@@ -463,7 +478,7 @@ h3 {
 
 .img-placeholder4 {
   margin-top: 40px;
-  width: 327px;
+  /* width: 327px; */
   height: 205px;
   background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
 }
@@ -483,6 +498,7 @@ h3 {
   font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
+  height: 204px;
 }
 
 .tech-used4 {
@@ -579,24 +595,18 @@ h3 {
 .contact-us {
   display: flex;
   flex-direction: column;
-  height: 760px;
-  width: 327px;
+  width: 100%;
   background: #191765;
-  padding-top: 10px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 24px;
 }
 
 .contact-us h2 {
-  position: absolute;
-  top: 4226px;
-  bottom: 744px;
-  left: 90px;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
   color: #9390ff;
+  text-align: center;
 }
 
 .contact-us h3 {
@@ -609,27 +619,24 @@ h3 {
   line-height: 24px;
   text-align: center;
   color: #f5f5ff;
-  height: 35px;
-  padding: 15px;
-}
-
-.mobile-screen {
-  position: absolute;
-  top: 4400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
+  padding: 24px;
   width: 327px;
 }
 
+.contact-us form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  padding-top: 20px;
+}
+.large-screen {
+  visibility: hidden;
+}
 input[type='text'] {
   width: 327px;
   height: 48px;
-  align-self: center;
-  padding-left: 10px;
-  margin-top: 40px;
-  margin-bottom: 12px;
   background: #fff;
   box-sizing: border-box;
 }
@@ -657,7 +664,6 @@ textarea {
 }
 
 .email-description {
-  position: absolute;
   height: 20px;
   width: 200px;
   align-self: center;
@@ -667,8 +673,6 @@ textarea {
 
 .contact-button {
   position: absolute;
-  top: 4784px;
-  left: 150px;
   background-color: #7d73fc;
   font-style: normal;
   color: #edecff;
@@ -679,6 +683,8 @@ textarea {
   line-height: 24px;
   width: 89px;
   height: 48px;
+  left: 150px;
+  top: 4720px;
 }
 
 .contact-button-mobile:hover,
@@ -710,8 +716,8 @@ button[disabled] {
   flex-direction: row;
   flex: 1;
   width: 190px;
-  padding-left: 70px;
-  top: 4940px;
+  left: 84px;
+  top: 4860px;
   align-items: center;
   justify-content: space-between;
 }
@@ -725,7 +731,7 @@ button[disabled] {
   position: absolute;
   height: 0;
   width: 327px;
-  top: 4920px;
+  top: 4850px;
   left: 23px;
   right: 24px;
   border: 1px solid#646369;
@@ -736,7 +742,7 @@ button[disabled] {
   height: 5px;
   width: 134px;
   left: 120px;
-  top: 5020px;
+  top: 4970px;
   background: #0d151e;
   bottom: 8px;
   border-radius: 10px;

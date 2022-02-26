@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   header {
     position: absolute;
     width: 100%;
@@ -56,6 +56,9 @@
     width: 100%;
     height: auto;
     background-color: #191765;
+    background-size: contain;
+    background-position: center;
+    top: 19px;
   }
 
   footer {
@@ -536,4 +539,4 @@
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
     opacity: 0.5;
   }
-}
+} */
