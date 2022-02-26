@@ -227,7 +227,7 @@ h3 {
   font-size: 20px;
   font-style: normal;
 }
-.work-arrow2  {
+.work-arrow2 {
   visibility: hidden;
   color: #a2a3ae;
   font-weight: 520;
@@ -612,14 +612,14 @@ h3 {
   padding: 15px;
 }
 
-.contact-form {
+ .mobile-screen {
+  position: absolute;
+  top: 4400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   width: 327px;
-  padding-top: 40px;
-  padding-right: 24px;
 }
 
 input[type='text'] {

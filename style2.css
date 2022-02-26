@@ -413,7 +413,7 @@
     padding-top: 200px;
   }
 
-  .contact-form {
+  form .large-screen {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -422,7 +422,7 @@
     width: 684px;
     padding-top: 300px;
     padding-right: 24px;
-    padding-left: 400px;
+    left: 410px;
   }
 
   input[type='text'] {
