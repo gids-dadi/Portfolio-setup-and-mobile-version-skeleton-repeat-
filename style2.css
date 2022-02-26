@@ -420,7 +420,7 @@
     width: 684px;
     padding-top: 300px;
     padding-right: 24px;
-    left: 510px;
+    left: 520px;
   }
 
   input[type='text'] {
@@ -442,7 +442,7 @@
   .contact-button {
     position: absolute;
     top: 4320px;
-    left: 800px;
+    left: 820px;
     font-size: 12px;
     line-height: 24px;
     width: 89px;
@@ -463,7 +463,7 @@
     position: absolute;
     width: 190px;
     left: 580px;
-    top: 4410px;
+    top: 4430px;
     align-items: center;
     justify-content: space-between;
   }
@@ -474,7 +474,7 @@
     width: 250px;
     align-self: center;
     left: 860px;
-    top: 4410px;
+    top: 4430px;
   }
 
   .shape {
