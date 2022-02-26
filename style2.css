@@ -157,7 +157,7 @@
     width: 375px;
   }
 
-  tech-experience h2 {
+  .tech-experience h2 {
     color: #9490ff;
     font-size: 12px;
     font-style: normal;
@@ -210,12 +210,11 @@
   .social-media-icons {
     display: flex;
     position: absolute;
-    left: 330px;
-    padding-left: 750px;
+    right: 400px;
+    padding: 0;
     align-self: center;
     align-items: center;
     width: 190px;
-    padding: 0px;
   }
 
   .work-arrow {
@@ -268,13 +267,6 @@
     padding: 142px;
   }
 
-  .img-placeholder1 {
-    width: 684px;
-    height: 448px;
-    margin: 24px;
-    background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
-  }
-
   .my-work-1 p {
     width: 448px;
     height: 140px;
@@ -289,19 +281,16 @@
   .img-placeholder1 {
     grid-column: 1;
     grid-row: 1;
+    width: 684px;
+    height: 448px;
+    margin: 24px;
+    background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
 
   .work-wrap1 {
     grid-column: 2;
     grid-row: 1;
     margin: 24px;
-  }
-
-  .img-placeholder2 {
-    width: 684px;
-    height: 448px;
-    margin: 24px;
-    background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
 
   .my-work-2 p {
@@ -318,19 +307,16 @@
   .img-placeholder2 {
     grid-column: 2;
     grid-row: 1;
+    width: 684px;
+    height: 448px;
+    margin: 24px;
+    background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
 
   .work-wrap2 {
     grid-column: 1;
     grid-row: 1;
     margin: 24px;
-  }
-
-  .img-placeholder3 {
-    width: 684px;
-    height: 448px;
-    margin: 24px;
-    background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
 
   .my-work-3 p {
@@ -347,19 +333,16 @@
   .img-placeholder3 {
     grid-column: 1;
     grid-row: 1;
+    width: 684px;
+    height: 448px;
+    margin: 24px;
+    background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
 
   .work-wrap3 {
     margin: 24px;
     grid-column: 2;
     grid-row: 1;
-  }
-
-  .img-placeholder4 {
-    width: 684px;
-    height: 448px;
-    margin: 24px;
-    background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
 
   .my-work-4 p {
@@ -376,6 +359,10 @@
   .img-placeholder4 {
     grid-column: 2;
     grid-row: 1;
+    width: 684px;
+    height: 448px;
+    margin: 24px;
+    background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
 
   .work-wrap4 {
