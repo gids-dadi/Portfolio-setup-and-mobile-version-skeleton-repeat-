@@ -247,7 +247,6 @@
     width: 544px;
     color: #9390ff;
     padding-top: 1407px;
-    /* padding-bottom: 10px; */
     padding-left: 142px;
     text-transform: capitalize;
   }
@@ -257,7 +256,7 @@
     height: 0;
     width: 1476px;
     margin: 142px;
-    top: 1330px;
+    top: 1430px;
     border: 1px solid#646369;
   }
 
@@ -265,6 +264,7 @@
     width: 1156px;
     padding-left: 242px;
     padding-right: 242px;
+    padding-top: 100px;
   }
 
   .my-work-1 p {
@@ -441,7 +441,7 @@
 
   .contact-button {
     position: absolute;
-    top: 4220px;
+    top: 4320px;
     left: 800px;
     font-size: 12px;
     line-height: 24px;
@@ -455,7 +455,7 @@
     height: 0;
     width: 1476px;
     margin: 142px;
-    top: 4150px;
+    top: 4250px;
     border: 1px solid#646369;
   }
 
@@ -463,7 +463,7 @@
     position: absolute;
     width: 190px;
     left: 580px;
-    top: 4310px;
+    top: 4410px;
     align-items: center;
     justify-content: space-between;
   }
@@ -474,7 +474,7 @@
     width: 250px;
     align-self: center;
     left: 860px;
-    top: 4310px;
+    top: 4410px;
   }
 
   .shape {
