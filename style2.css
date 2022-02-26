@@ -389,7 +389,7 @@
   .contact-us h3 {
     position: absolute;
     top: 3800px;
-    line-height: 56px;
+    display: block;
     text-align: center;
     font-style: normal;
     font-weight: 700;
@@ -403,13 +403,11 @@
     font-family: 'Inter', sans-serif;
     text-align: center;
     font-size: 26px;
-    width: 300px;
-    height: 61px;
     line-height: 30px;
     left: 290px;
     color: #f5f5ff;
     height: 40px;
-    width: 890px;
+    width: 880px;
     padding-top: 200px;
   }
 
@@ -432,20 +430,13 @@
   input[type='email'] {
     width: 684px;
   }
+
   textarea {
     width: 684px;
   }
 
   .mobile-screen {
     display: none;
-  }
-  .large-screen {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contact-us h3 {
-    display: block;
   }
 
   .contact-button {
