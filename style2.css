@@ -1,5 +1,4 @@
 @media only screen and (min-width: 992px) {
-  /* and (max-width: 1100px)  */
   header {
     position: absolute;
     width: 100%;
@@ -42,12 +41,15 @@
   }
 
   .notification {
+    visibility: visible;
+    position: absolute;
+    left: 1300px;
+    padding: 10px;
   }
 
   .menu-bar {
     display: none;
   }
-
   .main-mobile-section {
     width: 100%;
     height: auto;
@@ -203,6 +205,7 @@
     margin: 24px;
   }
   .social-media-icons {
+    display: flex;
     position: absolute;
     left: 330px;
     padding-left: 750px;
@@ -221,11 +224,16 @@
   }
 
   .work-arrow2 {
-    position: absolute;
-    left: 30px;
-    display: flex;
-    align-self: flex-end;
-    padding: 0;
+    visibility: visible;
+  }
+
+  .work-arrow2 a {
+    text-decoration: none;
+    color: #a2a3ae;
+    font-weight: 520;
+    line-height: 32px;
+    font-size: 20px;
+    font-style: normal;
   }
 
   .my-work-header {
@@ -393,7 +401,10 @@
   .contact-us p {
     position: absolute;
     font-family: 'Inter', sans-serif;
+    text-align: center;
     font-size: 26px;
+    width: 300px;
+    height: 61px;
     line-height: 30px;
     left: 290px;
     color: #f5f5ff;
@@ -428,12 +439,30 @@
   .mobile-screen {
     display: none;
   }
+  .large-screen {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-us h3 {
+    display: block;
+  }
+
+  .contact-buttton {
+    position: absolute;
+    top: 4380px;
+    left: 734px;
+    font-size: 12px;
+    line-height: 24px;
+    width: 89px;
+    height: 48px;
+  }
 
   .vector7 {
     position: absolute;
     height: 0;
     width: 1440px;
-    top: 4450px;
+    top: 4500px;
     border: 1px solid#646369;
   }
 
@@ -441,7 +470,7 @@
     position: absolute;
     width: 190px;
     left: 480px;
-    top: 4460px;
+    top: 4510px;
     align-items: center;
     justify-content: space-between;
   }
@@ -452,7 +481,7 @@
     width: 250px;
     align-self: center;
     left: 760px;
-    top: 4460px;
+    top: 4510px;
   }
 
   .shape {

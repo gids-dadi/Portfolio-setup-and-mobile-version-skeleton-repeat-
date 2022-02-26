@@ -13,6 +13,7 @@ ul li {
 
 body {
   position: absolute;
+  width: auto;
   height: 4900px;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
@@ -27,17 +28,16 @@ header {
   height: 50px;
 }
 
-header nav {
+.nav-menu {
   display: none;
+}
+.notification {
+  visibility: hidden;
 }
 
 .large-screen {
   display: none;
 }
-/* 
-.contact-us h3 {
-  display: none;
-} */
 
 .name_logo {
   color: #edecff;
@@ -49,7 +49,8 @@ header nav {
   padding-left: 30px;
 }
 
-.menu_bar {
+.menu-bar {
+  display: flex;
   position: absolute;
   font-size: 25px;
   color: #e5e5e5;
@@ -210,10 +211,6 @@ h3 {
   color: #f5f5ff;
 }
 
-/* .social-media-icons li {
-  list-style: none;
-} */
-
 .work-arrow {
   display: flex;
   flex-direction: row;
@@ -230,8 +227,8 @@ h3 {
   font-size: 20px;
   font-style: normal;
 }
-.work-arrow2 a {
-  text-decoration: none;
+.work-arrow2  {
+  visibility: hidden;
   color: #a2a3ae;
   font-weight: 520;
   line-height: 32px;
@@ -584,7 +581,7 @@ h3 {
   height: 760px;
   width: 327px;
   background: #191765;
-  /* padding-top: 10px; */
+  padding-top: 10px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -601,6 +598,9 @@ h3 {
   color: #9390ff;
 }
 
+.contact-us h3 {
+  display: none;
+}
 
 .contact-us p {
   font-family: 'Inter', sans-serif;
@@ -665,6 +665,9 @@ textarea {
 }
 
 .contact-buttton {
+  position: absolute;
+  top: 4780px;
+  left: 134px;
   background-color: #7d73fc;
   font-style: normal;
   color: #edecff;
@@ -675,7 +678,6 @@ textarea {
   line-height: 24px;
   width: 89px;
   height: 48px;
-  margin: 40px;
 }
 
 .contact-buttton:hover,
@@ -714,19 +716,12 @@ button[disabled] {
   color: #f5f5ff;
 }
 
-.social-media-icons2 li {
-  list-style: none;
-}
-
-.contact-form ul li {
-  list-style: none;
-}
-
 .vector7 {
   position: absolute;
   height: 0;
   width: 327px;
   top: 4920px;
+  margin-left: 24px;
   border: 1px solid#646369;
 }
 
