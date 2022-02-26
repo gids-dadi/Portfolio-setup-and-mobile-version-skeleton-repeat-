@@ -426,7 +426,7 @@
     padding-top: 200px;
   }
 
-  form .large-screen {
+  .large-screen {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -461,7 +461,7 @@
     display: block;
   }
 
-  .contact-buttton {
+  .contact-button {
     position: absolute;
     top: 4380px;
     left: 734px;
@@ -469,6 +469,7 @@
     line-height: 24px;
     width: 89px;
     height: 48px;
+    visibility: visible;
   }
 
   .vector7 {
@@ -544,10 +545,11 @@
     height: 916.19px;
     width: 246.29px;
     left: 1090.3px;
-    top: 2934px;
+    top: 2704px;
     background: #edecff;
     border-radius: 50%;
     filter: blur(20px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
+    opacity: 0.5;
   }
 }

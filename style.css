@@ -665,10 +665,10 @@ textarea {
   top: 4970px;
 }
 
-.contact-buttton {
+.contact-button {
   position: absolute;
-  top: 4780px;
-  left: 134px;
+  top: 4784px;
+  left: 150px;
   background-color: #7d73fc;
   font-style: normal;
   color: #edecff;
@@ -681,23 +681,27 @@ textarea {
   height: 48px;
 }
 
-.contact-buttton:hover,
+.contact-button-mobile:hover,
 button[hover] {
   background: #7d73fc;
   border: 1px solid #7d73fc;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.5);
 }
 
-.contact-buttton:active,
+.contact-button-mobile:active,
 button[active] {
   background: #5e42d7;
   border: 1px solid #7d73fc;
 }
 
-.contact-buttton:disabled,
+.contact-button-mobile:disabled,
 button[disabled] {
   background: #2a2b33;
   width: 44px;
+}
+
+.contact-button-large {
+  visibility: hidden;
 }
 
 .social-media-icons2 {
@@ -722,7 +726,8 @@ button[disabled] {
   height: 0;
   width: 327px;
   top: 4920px;
-  margin-left: 24px;
+  left: 23px;
+  right: 24px;
   border: 1px solid#646369;
 }
 
