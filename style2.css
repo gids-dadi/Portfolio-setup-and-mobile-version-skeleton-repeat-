@@ -1,39 +1,40 @@
-/* @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   header {
-    position: absolute;
-    width: 100%;
-    height: auto;
+    padding: 0;
+    justify-content: space-between;
   }
 
   .name_logo {
+    align-self: flex-start;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 20px;
-    position: inherit;
     color: #fff;
-    width: 101px;
-    height: 40px;
+    width: 350px;
+    height: 20px;
+    margin-left: 80px;
   }
 
-  header nav {
-    width: auto;
-    height: 72px;
-    display: flex;
-    margin-left: 1260px;
+  .menu-bar {
+    visibility: hidden;
   }
 
   .nav-menu {
-    position: absolute;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 12px;
-    justify-content: space-between;
-    color: #fff;
+    height: 72px;
+    padding-top: 10px;
   }
 
-  header nav ul li a {
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+  }
+
+  header nav a {
+    float: right;
     color: #edecff;
     font-size: 18px;
     font-style: normal;
@@ -43,18 +44,14 @@
 
   .notification {
     visibility: visible;
-    position: absolute;
-    left: 1590px;
     padding: 15px;
-  }
-
-  .menu-bar {
-    display: none;
   }
 
   .main-mobile-section {
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
     background-color: #191765;
     background-size: contain;
     background-position: center;
@@ -89,23 +86,19 @@
   }
 
   h1 {
-    position: absolute;
     width: 1156px;
-    left: 292px;
-    right: 242px;
     height: 50px;
-    top: 186px;
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 600;
     font-style: normal;
     line-height: 105px;
     letter-spacing: 1.8px;
     text-align: center;
     color: #9391ff;
+    /* margin-left: 80px; */
   }
 
   h3 {
-    position: absolute;
     height: 70px;
     width: 1156px;
     font-size: 50px;
@@ -114,19 +107,18 @@
     line-height: 47px;
     letter-spacing: 0;
     text-align: center;
-    left: 293px;
-    right: 242px;
-    top: 386px;
     color: #edecff;
+    margin-top: 80px;
+    margin-left: 30px;
+    padding-bottom: 60px;
   }
 
   .advert-text {
-    position: absolute;
     width: 447px;
     height: 155px;
-    top: 474px;
-    left: 650px;
-    right: 600px;
+    padding-right: 20px;
+    padding-top: 50px;
+    align-self: center;
   }
 
   .advert-text p {
@@ -139,30 +131,28 @@
   }
 
   .vector4 {
-    position: absolute;
+    /* position: absolute; */
     width: 448px;
-    left: 670px;
+    left: 450px;
     right: 24px;
-    top: 684px;
+    top: 714px;
     height: 0;
     border: 1px solid#646369;
   }
 
   .tech-experience {
-    position: absolute;
-    margin-top: 700px;
-    left: 650px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    height: 182.15px;
-    padding-left: 56px;
-    padding-top: 60px;
+    align-items: center;
     border-radius: 0;
     color: #f5f5ff;
-    width: 375px;
+    margin: 80px;
+  }
+
+  .language-framework {
+    width: 600px;
+    justify-content: space-between;
+    padding-right: 40px;
   }
 
   .tech-experience h2 {
@@ -176,60 +166,41 @@
     line-height: 35px;
   }
 
-  .language {
-    width: 100px;
-    height: 214.15px;
-  }
-
-  .frameworks {
-    width: 100px;
-    height: 214.15px;
-    left: 178px;
-  }
-
-  .skills {
-    width: 100px;
-    height: 214.15px;
-    left: 147px;
-  }
-
   .vector5 {
-    position: absolute;
     width: 448px;
     right: 24px;
-    top: 364px;
+    top: 979px;
     height: 0;
+    left: 450px;
     border: 1px solid#646369;
   }
 
-  .icons-work-wrap {
-    position: absolute;
+  /* .icons-work-wrap {
+   * position: absolute; 
     display: flex;
     flex-direction: row;
     width: 946px;
     height: 40px;
-    flex-wrap: wrap;
-    left: 418px;
+    left: 358px;
     top: 1150px;
     margin: 24px;
-  }
+  } */
 
   .social-media-icons {
     display: flex;
-    position: absolute;
     right: 400px;
-    padding: 0;
+    padding-left: 25px;
     align-self: center;
     align-items: center;
     width: 190px;
   }
 
   .work-arrow {
-    position: absolute;
+    /* position: absolute; */
     left: 820px;
     display: flex;
-    align-self: flex-end;
-    padding: 0;
+    /* align-self: flex-end; */
+    padding-top: 40px;
   }
 
   .work-arrow2 {
@@ -392,10 +363,10 @@
 
   .contact-us h2 {
     display: none;
+    visibility: hidden;
   }
 
   .contact-us h3 {
-    position: absolute;
     top: 3650px;
     display: block;
     text-align: center;
@@ -407,7 +378,6 @@
   }
 
   .contact-us p {
-    position: absolute;
     font-family: 'Inter', sans-serif;
     text-align: center;
     font-size: 26px;
@@ -420,7 +390,6 @@
   }
 
   .large-screen {
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -448,7 +417,6 @@
   }
 
   .contact-button {
-    position: absolute;
     top: 4320px;
     left: 820px;
     font-size: 12px;
@@ -459,7 +427,6 @@
   }
 
   .vector7 {
-    position: absolute;
     height: 0;
     width: 1476px;
     margin: 142px;
@@ -468,7 +435,6 @@
   }
 
   .social-media-icons2 {
-    position: absolute;
     width: 190px;
     left: 580px;
     top: 4430px;
@@ -477,7 +443,6 @@
   }
 
   .email-description {
-    position: absolute;
     height: 25px;
     width: 250px;
     align-self: center;
@@ -539,4 +504,4 @@
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
     opacity: 0.5;
   }
-} */
+}
