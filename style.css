@@ -125,7 +125,6 @@ h3 {
 
 .advert-text {
   width: 333px;
-  /* height: 170px; */
   margin: 24px 24px;
 }
 
@@ -165,6 +164,7 @@ h3 {
   font-size: 12px;
   font-style: normal;
 }
+
 .language-framework {
   display: flex;
   justify-content: space-between;
@@ -632,9 +632,11 @@ h3 {
   align-content: space-between;
   padding-top: 20px;
 }
+
 .large-screen {
   visibility: hidden;
 }
+
 input[type='text'] {
   width: 327px;
   height: 48px;
