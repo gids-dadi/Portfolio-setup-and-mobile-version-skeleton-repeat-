@@ -1,8 +1,8 @@
-#Gideon's Portfolio-setup-and-mobile-version-skeleton
+#Gideon's Portfolio-setup
 
 # Description of the project.
 
-My personal portfolio project. A clone of figma, it contains informtion about my tech skills and competencies. I have also added he contact form in this branch.
+My personal portfolio project. A clone of figma (template 4), it contains informtion about my tech skills and competencies. I have also added he contact form in this branch. The project also also has the media queries for larger screen size.
 
 Built With: HTML and CSS
 
